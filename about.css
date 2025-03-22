@@ -1,0 +1,272 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+    
+body{
+    font-family: "Inter", serif;
+}
+.image2 {
+    height: 600px;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.bg-img3 {
+    height: 100%;
+    width: 100%;
+    background: url(https://venuscateringservice.com/myimages/otherpagesbg.jpg);
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;  
+    /* background-attachment: fixed; */
+}
+
+.home_txt2 {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.home_txt2 p {
+color: white;
+font-size: 20px;
+}
+
+.home_txt2 h1 {
+    font-size: 4.6rem;
+    font-weight: 500;
+    letter-spacing: 3px;
+    font-weight: 600;
+    color: white;
+}
+
+.home_txt .bx-right-arrow-alt {
+    font-size: 25px;
+    padding-left: 5px;
+}
+.event {
+    /* height: 850px; */
+    width: 100%;
+    background-color: white;
+    flex-wrap: wrap;  
+    display: flex;
+    gap: 30px;
+    padding: 20px;
+    margin-top: 90px;
+    overflow: hidden;
+}
+
+.event1 {
+    /* height:100% ; */
+    /* width: 700px; */
+    background-color: white;
+    gap: 20px;
+    display: flex;
+    flex-wrap: nowrap;
+}
+.event22 {
+    background-color: white;
+    flex-wrap: wrap;
+}
+.img2 {
+    height: 100%;
+    width: 430px;
+    background-color: white;
+    /* flex-wrap: wrap; */
+    overflow: hidden;
+}
+.img2 img {
+    height: 100%;
+    width: 100%;
+    border-radius: 20px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+    /* flex-wrap: wrap; */
+}
+.img2 img:hover {
+    transition: transform.5s;
+    transform: scale(1.2);
+}
+.event22 h2 {
+    padding: 25px 10px;
+}
+.event22 h2 span1 {
+    color: maroon;
+    font-size: 20px;
+}
+.event22 h1 {
+    padding-left: 10px;
+    font-size: 60px;
+    color: #222222;
+}
+.event p {
+    padding: 30px 10px;
+    font-size: 20px;
+    line-height: 30px;
+}
+.about22 {
+    background-color: white;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    overflow: hidden;
+}
+.about11 {
+    width: 280px;
+    background-color: whitesmoke;
+    flex-wrap: wrap;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+    margin: 20px 0px 20px 0;
+}
+.about11 img {
+    height: 80px;
+    width: 80px;
+    margin: 10px 90px;
+}
+.about11 h2 {
+    padding-top: 10px;
+    font-size: 20px;
+    text-align: center;
+}
+.more {
+    width: 100%;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    margin: 30px 0;
+}
+button {
+    width: 200px;
+    height: 60px;
+    background-color: maroon;
+    margin: auto;
+    border-radius: 20px;
+    color: white;
+    font-size: 20px;
+}
+.company{
+    width: 100%;
+    background-color: white;
+    margin-top: 30px;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 50px;
+    gap: 20px;
+}
+.company1{
+    width: 900px;
+    background-color: white;
+    flex-wrap: nowrap;
+}
+.company2{
+    width: 930px;
+    background-color:white;
+    border-radius: 20px;
+    flex-wrap: nowrap;
+}
+.company1 h1{
+    padding: 50px;
+    font-size: 60px;
+    color: #222222;
+}
+.company1 p{
+    font-size: 18px;
+    padding-left: 50px;
+    padding-right: 50px;
+    line-height: 30px;
+    color: #222222;
+}
+.company2 img{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
+.test11 {
+    width: 100%;
+    margin-top: 50px;
+    background-color: grey;
+    flex-wrap: wrap;
+    display: flex;
+    /* justify-content: center; */
+
+}
+
+.test12 {
+    width: 1450px;
+    background-color: grey;
+}
+
+.test22 {
+    width: 420px;
+    background-color: grey;
+}
+
+.test22 img {
+    width: 100%;
+    height: 100%;
+}
+
+.test12 h3 {
+    padding-top: 70px;
+    padding-left: 20px;
+    color: #ffffff;
+    font-size: 20px;
+}
+
+.test12 h1 {
+    padding: 20px;
+    color: #ffffff;
+    font-size: 60px;
+}
+
+.test12 p {
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 18px;
+    color: #ffffff;
+    line-height: 30px;
+}
+
+.test12 h2 {
+    padding: 20px;
+    color: #ffffff;
+    font-size: 20px;
+}
+
+.bar1 {
+    width: 100%;
+    background-color: maroon;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bar2 {
+    color: white;
+    text-align: center;
+    font-size: 10px;
+}
+.bar {
+    font-size: 25px;
+    text-align: center;
+}
+.fa-circle {
+    padding: 10px;
+    font-size: 10px;
+}
+
+
+    
